@@ -1,4 +1,4 @@
-# 📜 Discord TypeScript Template
+# 📜 Discord Bot TypeScript Template
 
 🚀 **A modern Discord bot template using TypeScript and Bun**
 
@@ -48,7 +48,7 @@ bun run start
 ## 🏗 Project Structure
 
 ```
-📂 DISCORD_TS
+📂 DISCORD_BOT_TYPESCRIPT_TEMPLATE
  ┣ 📂 src
  ┃ ┣ 📂 api         # API integrations
  ┃ ┣ 📂 client      # Discord client setup
