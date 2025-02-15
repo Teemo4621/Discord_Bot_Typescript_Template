@@ -1,15 +1,90 @@
-# discord-ts
+# 📜 Discord TypeScript Template
 
-To install dependencies:
+🚀 **A modern Discord bot template using TypeScript and Bun**
 
-```bash
+---
+
+## 🔥 Features
+
+- 🏎 **Fast & Lightweight** - Powered by [Bun](https://bun.sh/)
+- 🔧 **TypeScript Support** - Ensures type safety
+- 📂 **Organized Structure** - Clean and modular code
+- 🛠 **Easy Development** - Predefined scripts for quick setup
+- 🌐 **API Support** - Built-in support for Express API integration
+- ⚡**Sharding Support** - Scalable bot with multiple shards to handle large servers and high traffic
+
+---
+
+## 📦 Installation
+
+```sh
 bun install
 ```
 
-To run:
+---
 
-```bash
-bun run src/index.ts
+## 🚀 Usage
+
+### Development Mode
+
+```sh
+bun run dev
 ```
 
-This project was created using `bun init` in bun v1.1.38. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+### Build the Project
+
+```sh
+bun run build
+```
+
+### Start the Bot
+
+```sh
+bun run start
+```
+
+---
+
+## 🏗 Project Structure
+
+```
+📂 DISCORD_TS
+ ┣ 📂 src
+ ┃ ┣ 📂 api         # API integrations
+ ┃ ┣ 📂 client      # Discord client setup
+ ┃ ┣ 📂 commands    # Command handlers
+ ┃ ┣ 📂 components  # UI components (if applicable)
+ ┃ ┣ 📂 config      # Configuration files
+ ┃ ┣ 📂 constants   # Constant values
+ ┃ ┣ 📂 events      # Event listeners
+ ┃ ┣ 📂 handlers    # Request handlers
+ ┃ ┣ 📂 types       # TypeScript types
+ ┃ ┗ 📜 index.ts    # Entry point
+ ┣ 📜 .env.development  # Development environment variables
+ ┣ 📜 .env.example      # Example environment variables
+ ┣ 📜 .env.production   # Production environment variables
+ ┣ 📜 .gitignore        # Git ignore file
+ ┣ 📜 .prettierrc       # Prettier config
+ ┣ 📜 bun.lockb         # Bun lock file
+ ┣ 📜 package-lock.json # Dependency lock file
+ ┣ 📜 package.json      # Project metadata
+ ┣ 📜 tsconfig.json     # TypeScript config
+ ┗ 📜 README.md         # You are here
+```
+
+---
+
+## 🌟 Contributing
+
+Pull requests are welcome! Feel free to fork this repo and submit improvements.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+💙 Made with love by **ZEMONNUB**
+
