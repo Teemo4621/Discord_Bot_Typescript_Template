@@ -1,0 +1,23 @@
+{
+  "name": "discord-ts",
+  "version": "1.0.0",
+  "description": "A Discord bot using TypeScript",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/client/index.ts",
+    "build": "tsc --project tsconfig.json",
+    "start": "bun dist/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2"
+  }
+}
