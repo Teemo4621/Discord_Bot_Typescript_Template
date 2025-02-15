@@ -1,0 +1,8 @@
+services:
+  discord-bot:
+    container_name: discord-bot
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
